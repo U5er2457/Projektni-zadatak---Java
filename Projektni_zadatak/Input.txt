@@ -1,0 +1,265 @@
+Studenti:
+
+1)
+
+Ime: Luka
+Prezime: Marić
+Email: luka.maric@student.hr
+JMBAG: 0259483721
+OIB: 18492037562
+Mobitel: 091 542 8834
+Smjer: 4
+Godina studija: 1
+ECTS: 36
+Kolegiji: 3, 7, 1, 11, 5
+
+2)
+
+Ime: Petra
+Prezime: Rukavina
+Email: petra.rukavina@student.hr
+JMBAG: 0312847569
+OIB: 29384756192
+Mobitel: 098 211 7442
+Smjer: 2
+Godina studija: 2
+ECTS: 68
+Kolegiji: 4, 12, 7, 9, 14, 3
+
+3)
+
+Ime: Marko
+Prezime: Vidović
+Email: marko.vidovic@student.hr
+JMBAG: 0291836457
+OIB: 03847562197
+Mobitel: 091 772 3381
+Smjer: 1
+Godina studija: 3
+ECTS: 103
+Kolegiji: 1, 6, 13, 17, 9, 15, 4
+
+4)
+
+Ime: Ivana
+Prezime: Kovačević
+Email: ivana.kovacevic@student.hr
+JMBAG: 0384759211
+OIB: 19385746201
+Mobitel: 095 337 4410
+Smjer: 5
+Godina studija: 2
+ECTS: 59
+Kolegiji: 8, 2, 11, 6, 13, 14
+
+5)
+
+Ime: Tomislav
+Prezime: Babić
+Email: tomislav.babic@student.hr
+JMBAG: 0173846592
+OIB: 27495836257
+Mobitel: 097 112 9305
+Smjer: 6
+Godina studija: 1
+ECTS: 30
+Kolegiji: 5, 2, 9, 10
+
+
+Profesori:
+
+1)
+
+Ime: Ana
+Prezime: Perić
+Email: ana.peric@tvz.hr
+OIB: 03928475612
+Mobitel: 091 663 2048
+Smjer: 3
+Kolegiji koje predaje: 4, 18, 22, 31
+
+2)
+
+Ime: Davor
+Prezime: Obradović
+Email: davor.obradovic@tvz.hr
+OIB: 28374610295
+Mobitel: 098 312 4491
+Smjer: 6
+Kolegiji koje predaje: 7, 12, 29
+
+3)
+
+Ime: Marina
+Prezime: Pleše
+Email: marina.plese@tvz.hr
+OIB: 19384756293
+Mobitel: 095 774 2150
+Smjer: 1
+Kolegiji koje predaje: 1, 8, 11, 15, 27
+
+4)
+
+Ime: Krešimir
+Prezime: Božić
+Email: kresimir.bozic@tvz.hr
+OIB: 01837426591
+Mobitel: 091 521 9912
+Smjer: 2
+Kolegiji koje predaje: 6, 19, 24, 33, 41
+
+5)
+
+Ime: Željka
+Prezime: Horvat
+Email: zeljka.horvat@tvz.hr
+OIB: 28475610293
+Mobitel: 098 883 4410
+Smjer: 5
+Kolegiji koje predaje: 3, 9, 10, 12, 36
+
+
+Kolegiji:
+
+1)
+
+Naziv: Osnove programiranja
+ECTS: 7
+Lokacija: A201
+Trajanje: 150 min
+
+2)
+
+Naziv: Baze podataka
+ECTS: 6
+Lokacija: B301
+Trajanje: 120 min
+
+3)
+
+Naziv: Mreže računala
+ECTS: 5
+Lokacija: C105
+Trajanje: 135 min
+
+4)
+
+Naziv: Operacijski sustavi
+ECTS: 6
+Lokacija: D210
+Trajanje: 180 min
+
+5)
+
+Naziv: Algoritmi i strukture podataka
+ECTS: 7
+Lokacija: A105
+Trajanje: 180 min
+
+6)
+
+Naziv: Informacijska sigurnost
+ECTS: 5
+Lokacija: C203
+Trajanje: 120 min
+
+7)
+
+Naziv: Web programiranje
+ECTS: 6
+Lokacija: A310
+Trajanje: 165 min
+
+8)
+
+Naziv: Objektno orijentirano programiranje
+ECTS: 7
+Lokacija: B112
+Trajanje: 150 min
+
+9)
+
+Naziv: Računalna grafika
+ECTS: 4
+Lokacija: C008
+Trajanje: 90 min
+
+10)
+
+Naziv: Matematika 2
+ECTS: 6
+Lokacija: D102
+Trajanje: 180 min
+
+
+Kolokviji:
+
+1)
+
+Kolegij: Osnove programiranja
+Lokacija: A201
+Datum: 2025-04-15 09:00
+Trajanje: 90 min
+
+2)
+
+Kolegij: Baze podataka
+Lokacija: B301
+Datum: 2025-05-03 14:30
+Trajanje: 75 min
+
+3)
+
+Kolegij: Mreže računala
+Lokacija: C105
+Datum: 2025-05-20 16:00
+Trajanje: 60 min
+
+4)
+
+Kolegij: Operacijski sustavi
+Lokacija: D210
+Datum: 2025-04-22 10:15
+Trajanje: 90 min
+
+5)
+
+Kolegij: Algoritmi i strukture podataka
+Lokacija: A105
+Datum: 2025-06-01 12:00
+Trajanje: 120 min
+
+6)
+
+Kolegij: Informacijska sigurnost
+Lokacija: C203
+Datum: 2025-04-28 08:00
+Trajanje: 60 min
+
+7)
+
+Kolegij: Web programiranje
+Lokacija: A310
+Datum: 2025-05-10 11:45
+Trajanje: 90 min
+
+8)
+
+Kolegij: Objektno orijentirano programiranje
+Lokacija: B112
+Datum: 2025-04-30 17:00
+Trajanje: 120 min
+
+9)
+
+Kolegij: Računalna grafika
+Lokacija: C008
+Datum: 2025-05-18 13:20
+Trajanje: 45 min
+
+10)
+
+Kolegij: Matematika 2
+Lokacija: D102
+Datum: 2025-04-26 09:45
+Trajanje: 120 min
