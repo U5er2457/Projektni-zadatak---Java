@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<log>
+    <entry>
+        <time>2025-12-11T15:43:54.607670700</time>
+        <action>IZBORNIK</action>
+        <details>Odabrana opcija: 3</details>
+    </entry>
+    <entry>
+        <time>2025-12-11T15:44:59.154007800</time>
+        <action>IZBORNIK</action>
+        <details>Odabrana opcija: 11</details>
+    </entry>
+    <entry>
+        <time>2025-12-11T15:44:59.173548200</time>
+        <action>BACKUP_SAVE</action>
+        <details>Spremanje backup.bin</details>
+    </entry>
+    <entry>
+        <time>2025-12-11T15:45:05.229186100</time>
+        <action>IZBORNIK</action>
+        <details>Odabrana opcija: 12</details>
+    </entry>
+    <entry>
+        <time>2025-12-11T15:45:05.232173900</time>
+        <action>BACKUP_LOAD</action>
+        <details>Pokušaj učitavanja backupa</details>
+    </entry>
+    <entry>
+        <time>2025-12-11T15:45:05.272700600</time>
+        <action>BACKUP_LOAD_OK</action>
+        <details>Backup uspješno učitan i primijenjen</details>
+    </entry>
+    <entry>
+        <time>2025-12-11T15:45:17.387286</time>
+        <action>IZBORNIK</action>
+        <details>Odabrana opcija: 13</details>
+    </entry>
+    <entry>
+        <time>2025-12-11T15:45:17.389427700</time>
+        <action>LOG_PRINT</action>
+        <details>Ispis XML loga</details>
+    </entry>
+    <entry>
+        <time>2025-12-11T15:46:08.654784600</time>
+        <action>IZBORNIK</action>
+        <details>Odabrana opcija: 0</details>
+    </entry>
+    <entry>
+        <time>2025-12-11T15:53:48.187957</time>
+        <action>IZBORNIK</action>
+        <details>Odabrana opcija: 13</details>
+    </entry>
+    <entry>
+        <time>2025-12-11T15:53:48.196476900</time>
+        <action>LOG_PRINT</action>
+        <details>Ispis XML loga</details>
+    </entry>
+    <entry>
+        <time>2025-12-11T15:53:54.271518800</time>
+        <action>IZBORNIK</action>
+        <details>Odabrana opcija: 0</details>
+    </entry>
+</log>
