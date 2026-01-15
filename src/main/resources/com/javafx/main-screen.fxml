@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.javafx.controller.MenuController"
+            prefHeight="768.0" prefWidth="1024.0">
+
+    <top>
+        <MenuBar>
+            <Menu text="Entiteti">
+                <MenuItem text="Studenti" onAction="#showStudentScreen"/>
+                <MenuItem text="Profesori" onAction="#showProfessorScreen"/>
+                <MenuItem text="Kolegiji" onAction="#showSubjectScreen"/>
+                <MenuItem text="Ispiti" onAction="#showExamScreen"/>
+            </Menu>
+        </MenuBar>
+    </top>
+
+    <center>
+        <StackPane fx:id="contentPane"/>
+    </center>
+
+</BorderPane>
