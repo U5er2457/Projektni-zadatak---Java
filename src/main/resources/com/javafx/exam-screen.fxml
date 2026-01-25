@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="768.0" prefWidth="1024.0"
+            xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.javafx.controller.ExamController">
+
+    <center>
+        <VBox spacing="10" BorderPane.alignment="CENTER">
+            <children>
+                <Label text="KOLOKVIJI - Pretraživanje">
+                    <font><Font name="Arial Bold" size="18.0"/></font>
+                    <VBox.margin><Insets top="10" left="10" right="10" bottom="0"/></VBox.margin>
+                </Label>
+
+                <GridPane hgap="10" vgap="10">
+                    <padding><Insets top="10" left="10" right="10" bottom="10"/></padding>
+
+                    <columnConstraints>
+                        <ColumnConstraints percentWidth="16"/>
+                        <ColumnConstraints percentWidth="34"/>
+                        <ColumnConstraints percentWidth="16"/>
+                        <ColumnConstraints percentWidth="34"/>
+                    </columnConstraints>
+
+                    <children>
+                        <Label text="Kolegij" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                        <ComboBox fx:id="subject" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+                        <Label text="Mjesto" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+                        <TextField fx:id="locationField" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+
+                        <Label text="Trajanje (min)" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                        <TextField fx:id="duration" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+                        <HBox spacing="10" GridPane.rowIndex="2" GridPane.columnIndex="0" GridPane.columnSpan="4">
+                            <children>
+                                <Button text="Pretraži" onAction="#onSearch"/>
+                                <Button text="Očisti" onAction="#onClear"/>
+                            </children>
+                        </HBox>
+                    </children>
+                </GridPane>
+
+                <TableView fx:id="tableExams" prefHeight="490.0">
+                    <columns>
+                        <TableColumn fx:id="colSubject" text="Kolegij" prefWidth="200"/>
+                        <TableColumn fx:id="colDuration" text="Trajanje" prefWidth="110"/>
+                        <TableColumn fx:id="colLocation" text="Mjesto" prefWidth="160"/>
+                        <TableColumn fx:id="colDateTime" text="Termin" prefWidth="520"/>
+                    </columns>
+                </TableView>
+            </children>
+        </VBox>
+    </center>
+</BorderPane>

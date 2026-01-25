@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="768.0" prefWidth="1024.0"
+            xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.javafx.controller.ProfessorController">
+
+    <center>
+        <VBox spacing="10" BorderPane.alignment="CENTER">
+            <children>
+                <Label text="PROFESORI - Pretraživanje">
+                    <font><Font name="Arial Bold" size="18.0"/></font>
+                    <VBox.margin><Insets top="10" left="10" right="10" bottom="0"/></VBox.margin>
+                </Label>
+
+                <GridPane hgap="10" vgap="10">
+                    <padding><Insets top="10" left="10" right="10" bottom="10"/></padding>
+
+                    <columnConstraints>
+                        <ColumnConstraints percentWidth="16"/>
+                        <ColumnConstraints percentWidth="34"/>
+                        <ColumnConstraints percentWidth="16"/>
+                        <ColumnConstraints percentWidth="34"/>
+                    </columnConstraints>
+
+                    <children>
+                        <Label text="Ime" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                        <TextField fx:id="firstName" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+                        <Label text="Prezime" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+                        <TextField fx:id="lastName" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+
+                        <Label text="E-mail" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                        <TextField fx:id="email" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+                        <Label text="OIB" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+                        <TextField fx:id="oib" GridPane.rowIndex="1" GridPane.columnIndex="3"/>
+
+                        <HBox spacing="10" GridPane.rowIndex="2" GridPane.columnIndex="0" GridPane.columnSpan="4">
+                            <children>
+                                <Button text="Pretraži" onAction="#onSearch"/>
+                                <Button text="Očisti" onAction="#onClear"/>
+                            </children>
+                        </HBox>
+                    </children>
+                </GridPane>
+
+                <TableView fx:id="tableProfessors" prefHeight="470.0">
+                    <columns>
+                        <TableColumn fx:id="colFirstName" text="Ime" prefWidth="160"/>
+                        <TableColumn fx:id="colLastName" text="Prezime" prefWidth="160"/>
+                        <TableColumn fx:id="colEmail" text="Email" prefWidth="250"/>
+                        <TableColumn fx:id="colOib" text="OIB" prefWidth="220"/>
+                    </columns>
+                </TableView>
+            </children>
+        </VBox>
+    </center>
+</BorderPane>
